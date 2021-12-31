@@ -4,7 +4,7 @@ import qrcode
 data = "www.google.com"
 
 # file name
-file_name = "my_qrcode.png"
+file_name = "qrcode.png"
 
 # generate qr code
 img = qrcode.make(data=data)
